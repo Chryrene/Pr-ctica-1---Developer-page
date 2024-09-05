@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+
+
+
+/* Tittle */
+
+.Tittle {
+
+    text-align: center;
+    font-size: 3.8rem;
+
+}
+
+
+.Tittle span{
+    font-size: 2rem;
+}
+
+/* Navbar */
+
+nav{
+    text-align: center;
+}
