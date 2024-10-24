@@ -115,36 +115,46 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, facere. Quaerat facilis iste nisi suscipit delectus fugiat, magni vel odit dolore aperiam qui deleniti molestiae, vero illum, assumenda autem? Quaerat.</p>
                 </section>
             </div>
-        </main>
+        
 
         <!-- Contact Section -->
         <section id="contact">
             <h2>Contact</h2>
-            <form>
+            <form class="form">
                 <fieldset>
                     <legend>Fill out your contact information</legend>
-                    <div>
-                        <label>Name</label>
-                        <input type="text" placeholder="Your name">
+                    
+                    <div class="container-fields">
+                        <div class="field">
+                            <label>Name</label>
+                            <input type="text" class="input-text" placeholder="Your name">
+                        </div>
+            
+                        <div class="field">
+                            <label>Phone Number</label>
+                            <input type="tel" class="input-text" placeholder="Your number">
+                        </div>
+                        
+                        <div class="field">
+                            <label>Email</label>
+                            <input type="email" class="input-text" placeholder="Your email">
+                        </div>
+            
+                        <div class="field field-full">
+                            <label>Message</label>
+                            <textarea></textarea>
+                        </div>
                     </div>
-                    <div>
-                        <label>Phone Number</label>
-                        <input type="tel" placeholder="Your number">
-                    </div>
-                    <div>
-                        <label>Email</label>
-                        <input type="email" placeholder="Your email">
-                    </div>
-                    <div>
-                        <label>Message</label>
-                        <textarea></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="Submit">
+            
+                    <div class="ends">
+                        <input class="buttonsub" type="submit" value="Submit">
                     </div>
                 </fieldset>
             </form>
+            
         </section>
+
+    </main>
 
         <!-- Footer -->
         <footer>
